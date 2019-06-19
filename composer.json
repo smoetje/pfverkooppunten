@@ -1,0 +1,25 @@
+{
+  "name": "smoetje/pfverkooppunten",
+  "description": "Paulusfeesten Verkooppuntenbeheer Profijtkaarten API & beheermodule voor googlemaps_pf_vuejs app",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nicolas Ramoudt",
+      "email": "nicolas.ramoudt@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Smoetje\\Pfverkooppunten\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Smoetje\\Pfverkooppunten\\PfVerkooppuntenServiceProvider"
+      ]
+    }
+  }
+}
