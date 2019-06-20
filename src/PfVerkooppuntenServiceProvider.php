@@ -29,9 +29,9 @@ class PfVerkooppuntenServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__.'/js' => base_path('resources/js/components'),
-        ]);
-//        $this->publishes([
-//            __DIR__.'/views' => base_path('resources/views'),
-//        ]);
+        ], 'pf_verkooppunten');
+        $this->publishes([
+            __DIR__.'/views' => base_path('resources/views/test'),
+        ],'pf_verkooppunten');
     }
 }
