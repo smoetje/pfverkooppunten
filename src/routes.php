@@ -12,7 +12,8 @@
 */
 
 Route::get('/verkoop', function () {
-    return view('verkooppunten');
+    return view('Pfverkooppunten::verkooppunten');
 });
 
-Route::resource('verkooppunten', 'VerkooppuntenController');
+Route::resource('verkooppunten', 'Smoetje\Pfverkooppunten\VerkooppuntenController');
+

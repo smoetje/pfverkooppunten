@@ -14,10 +14,10 @@ class VerkooppuntenController extends Controller
         $this->verkooppuntenModel = $verkooppuntenModel;
     }
 
-    public function overview()
-    {
-        return view('pages.admin.website.verkooppunten');
-    }
+//    public function overview()
+//    {
+//        return view('verkooppunten');
+//    }
 
     /**
      * Display a listing of the resource.

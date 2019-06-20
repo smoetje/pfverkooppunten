@@ -23,14 +23,15 @@ class PfVerkooppuntenServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        include __DIR__.'/routes.php';
+        $this->loadRoutesFrom( __DIR__.'/routes.php');
         $this->loadMigrationsFrom(__DIR__.'/migrations');
-        $this->loadViewsFrom(__DIR__.'/views', 'verkooppunten');
+        $this->loadViewsFrom(__DIR__.'/views', 'Pfverkooppunten');
+
         $this->publishes([
             __DIR__.'/js' => base_path('resources/js/components'),
         ]);
-        $this->publishes([
-            __DIR__.'/views' => base_path('resources/views'),
-        ]);
+//        $this->publishes([
+//            __DIR__.'/views' => base_path('resources/views'),
+//        ]);
     }
 }

@@ -22,8 +22,4 @@
       </profile-state>
     </entry>
   </component>
-  <component name="VagrantProjectSettings">
-    <option name="instanceFolder" value="C:\Users\nrt\Homestead" />
-    <option name="provider" value="" />
-  </component>
 </project>
