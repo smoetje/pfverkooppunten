@@ -25,7 +25,7 @@ class PfVerkooppuntenServiceProvider extends ServiceProvider
     {
         $this->loadRoutesFrom( __DIR__.'/routes.php');
         $this->loadMigrationsFrom(__DIR__.'/migrations');
-        $this->loadViewsFrom(__DIR__.'/views', 'Pfverkooppunten');
+        $this->loadViewsFrom(__DIR__.'/resources/views', 'Pfverkooppunten');
 
 //        $this->publishes([
 //            __DIR__.'/js' => base_path('resources/js/components'),

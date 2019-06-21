@@ -9,7 +9,7 @@
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="/css/verkooppunten-app.css">
+  <link rel="stylesheet" type="text/css" href="/vendor/smoetje/pfverkooppunten/css/verkooppunten-app.css">
 
 </head>
 <body>
@@ -17,5 +17,5 @@
   <router-view></router-view>
 </div>
 </body>
-<script src="/js/verkooppunten-app.js"></script>
+<script src="/vendor/smoetje/pfverkooppunten/js/verkooppunten-app.js"></script>
 </html>
