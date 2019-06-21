@@ -27,11 +27,15 @@ class PfVerkooppuntenServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__.'/migrations');
         $this->loadViewsFrom(__DIR__.'/views', 'Pfverkooppunten');
 
+//        $this->publishes([
+//            __DIR__.'/js' => base_path('resources/js/components'),
+//        ], 'pf_verkooppunten');
+//        $this->publishes([
+//            __DIR__.'/views' => base_path('resources/views/test'),
+//        ],'pf_verkooppunten');
+
         $this->publishes([
-            __DIR__.'/js' => base_path('resources/js/components'),
-        ], 'pf_verkooppunten');
-        $this->publishes([
-            __DIR__.'/views' => base_path('resources/views/test'),
-        ],'pf_verkooppunten');
+            __DIR__.'/public' => public_path('vendor/smoetje/pfverkooppunten'),
+        ]);
     }
 }
