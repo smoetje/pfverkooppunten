@@ -1,12 +1,12 @@
 **Plugin Laravel 5.8/VueJS experimental package for management of the PAULUSFEESTEN sales-locations of our dealers.**
 
-Proudly just made my very first (very simple) CRUD plugin package just to learn how to create and use Laravel plugins 
+Proudly just made my very first (very simple) plugin package just to learn how to create and use Laravel plugins 
 through composer.
 
-This application is a simple backend management api for the following (injectable) webpage plugin:
+This application is a simple crud backend management api for the following (injectable) webpage-plugin:
 https://bitbucket.org/nicolas_r/googlemaps_pf_vuejs/src/master/
 
-Once installed, the built-in service provider does all the work to make it work.
+Once installed, the built-in service provider does all the work to make the backend work.
 
 Current release: v0.0.3
 In package.json add:
